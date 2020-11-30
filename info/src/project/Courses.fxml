@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="623.0" prefWidth="1129.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.CoursesController">
+   <children>
+      <ImageView fx:id="image" fitHeight="636.0" fitWidth="1142.0" layoutX="-2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/165863.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="pre" layoutX="131.0" layoutY="26.0" prefHeight="18.0" prefWidth="221.0" text="Premier Semester" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <VBox fx:id="vboxd1" layoutX="111.0" layoutY="170.0" prefHeight="350.0" prefWidth="138.0">
+         <children>
+            <Label fx:id="d1" prefHeight="43.0" prefWidth="159.0" text="Dctr 1" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="d2" prefHeight="51.0" prefWidth="143.0" text="Dctr 2" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="d3" prefHeight="55.0" prefWidth="143.0" text="Dctr 3" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="d4" prefHeight="54.0" prefWidth="137.0" text="Dctr 4" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="d5" prefHeight="42.0" prefWidth="146.0" text="Dctr 5" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="d6" prefHeight="55.0" prefWidth="143.0" text="Dctr 6" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox fx:id="vboxm1" layoutX="320.0" layoutY="170.0" prefHeight="298.0" prefWidth="100.0">
+         <children>
+            <CheckBox fx:id="m1" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="M1" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="m2" mnemonicParsing="false" prefHeight="48.0" prefWidth="100.0" text="M1" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="m3" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="M1" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="m4" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="M1" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="m5" mnemonicParsing="false" prefHeight="52.0" prefWidth="100.0" text="M1" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="m6" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="M1" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </CheckBox>
+         </children>
+      </VBox>
+      <Label fx:id="deus" layoutX="642.0" layoutY="25.0" prefHeight="28.0" prefWidth="283.0" text="Deusieme Semester" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <VBox fx:id="vboxd2" layoutX="627.0" layoutY="174.0" prefHeight="350.0" prefWidth="122.0">
+         <children>
+            <Label fx:id="d7" prefHeight="43.0" prefWidth="130.0" text="Dctr 1" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="d8" prefHeight="51.0" prefWidth="127.0" text="Dctr 2" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="d9" prefHeight="46.0" prefWidth="127.0" text="Dctr 3" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="d10" prefHeight="50.0" prefWidth="133.0" text="Dctr 4" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="d11" prefHeight="50.0" prefWidth="146.0" text="Dctr 5" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="d12" prefHeight="55.0" prefWidth="129.0" text="Dctr 6" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox fx:id="vboxm2" layoutX="826.0" layoutY="173.0" prefHeight="298.0" prefWidth="100.0">
+         <children>
+            <CheckBox fx:id="m7" mnemonicParsing="false" prefHeight="46.0" prefWidth="100.0" text="M1" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="m8" mnemonicParsing="false" prefHeight="57.0" prefWidth="100.0" text="M1" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="m9" mnemonicParsing="false" prefHeight="37.0" prefWidth="100.0" text="M1" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="m10" mnemonicParsing="false" prefHeight="56.0" prefWidth="100.0" text="M1" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="m11" mnemonicParsing="false" prefHeight="52.0" prefWidth="100.0" text="M1" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="m12" mnemonicParsing="false" prefHeight="55.0" prefWidth="100.0" text="M1" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </CheckBox>
+         </children>
+      </VBox>
+      <Button fx:id="add" layoutX="457.0" layoutY="502.0" mnemonicParsing="false" onAction="#AddCourse" prefHeight="41.0" prefWidth="130.0" text="Add Course" />
+      <Button fx:id="close" layoutX="1082.0" layoutY="2.0" mnemonicParsing="false" onAction="#Close" prefHeight="26.0" prefWidth="44.0">
+         <graphic>
+            <ImageView fx:id="imagex" fitHeight="20.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/delete_16x16.gif" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label fx:id="id" layoutX="31.0" layoutY="30.0" prefHeight="18.0" prefWidth="44.0" textFill="WHITE" />
+      <VBox fx:id="cr" layoutX="405.0" layoutY="173.0" prefHeight="323.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="c1" alignment="CENTER" prefHeight="51.0" prefWidth="100.0" text="6" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="c2" alignment="CENTER" prefHeight="40.0" prefWidth="100.0" text="6" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="c3" alignment="CENTER" prefHeight="56.0" prefWidth="100.0" text="6" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="c4" alignment="CENTER" prefHeight="43.0" prefWidth="103.0" text="6" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="c5" alignment="CENTER" prefHeight="58.0" prefWidth="100.0" text="6" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="c6" alignment="CENTER" prefHeight="44.0" prefWidth="100.0" text="6" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox fx:id="cr1" layoutX="929.0" layoutY="171.0" prefHeight="325.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="c7" alignment="CENTER" prefHeight="56.0" prefWidth="100.0" text="6" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="c8" alignment="CENTER" prefHeight="41.0" prefWidth="100.0" text="6" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="c9" alignment="CENTER" prefHeight="52.0" prefWidth="100.0" text="6" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="c10" alignment="CENTER" prefHeight="43.0" prefWidth="103.0" text="6" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="c11" alignment="CENTER" prefHeight="65.0" prefWidth="100.0" text="6" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="c12" alignment="CENTER" prefHeight="44.0" prefWidth="100.0" text="6" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

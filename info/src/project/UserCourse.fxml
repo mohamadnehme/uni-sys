@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="585.0" prefWidth="1221.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.UserCourseController">
+   <children>
+      <ImageView fitHeight="847.0" fitWidth="1237.0" layoutX="-1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/ubuntu_blue-1280x800.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="s1" layoutX="100.0" layoutY="69.0" prefHeight="38.0" prefWidth="289.0" text="Premier Semestre" textFill="WHITE">
+         <font>
+            <Font name="Bodoni MT" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="s2" layoutX="819.0" layoutY="71.0" prefHeight="44.0" prefWidth="318.0" text="Deusieme Semestre" textFill="WHITE">
+         <font>
+            <Font name="Bodoni MT" size="36.0" />
+         </font>
+      </Label>
+      <VBox layoutX="50.0" layoutY="190.0" prefHeight="455.0" prefWidth="380.0">
+         <children>
+            <HBox prefHeight="74.0" prefWidth="320.0">
+               <children>
+                  <Label fx:id="d1" alignment="CENTER" prefHeight="74.0" prefWidth="150.0" text="Dctr1" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="m1" alignment="CENTER" prefHeight="74.0" prefWidth="112.0" text="M1" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="c1" alignment="CENTER" prefHeight="73.0" prefWidth="94.0" text="C1" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="75.0" prefWidth="320.0">
+               <children>
+                  <Label fx:id="d2" alignment="CENTER" prefHeight="74.0" prefWidth="150.0" text="Dctr2" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="m2" alignment="CENTER" prefHeight="74.0" prefWidth="112.0" text="M2" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="c2" alignment="CENTER" prefHeight="73.0" prefWidth="94.0" text="C2" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="75.0" prefWidth="320.0">
+               <children>
+                  <Label fx:id="d3" alignment="CENTER" prefHeight="74.0" prefWidth="150.0" text="Dctr3" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="m3" alignment="CENTER" prefHeight="74.0" prefWidth="112.0" text="M3" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="c3" alignment="CENTER" prefHeight="73.0" prefWidth="94.0" text="C3" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="75.0" prefWidth="320.0">
+               <children>
+                  <Label fx:id="d4" alignment="CENTER" prefHeight="74.0" prefWidth="150.0" text="Dctr4" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="m4" alignment="CENTER" prefHeight="74.0" prefWidth="112.0" text="M4" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="c4" alignment="CENTER" prefHeight="73.0" prefWidth="94.0" text="C4" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="75.0" prefWidth="320.0">
+               <children>
+                  <Label fx:id="d5" alignment="CENTER" prefHeight="74.0" prefWidth="150.0" text="Dctr5" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="m5" alignment="CENTER" prefHeight="74.0" prefWidth="112.0" text="M5" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="c5" alignment="CENTER" prefHeight="73.0" prefWidth="94.0" text="C5" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="75.0" prefWidth="320.0">
+               <children>
+                  <Label fx:id="d6" alignment="CENTER" prefHeight="74.0" prefWidth="150.0" text="Dctr6" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="m6" alignment="CENTER" prefHeight="74.0" prefWidth="112.0" text="M6" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="c6" alignment="CENTER" prefHeight="73.0" prefWidth="94.0" text="C6" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="780.0" layoutY="190.0" prefHeight="455.0" prefWidth="380.0">
+         <children>
+            <HBox prefHeight="74.0" prefWidth="320.0">
+               <children>
+                  <Label fx:id="d7" alignment="CENTER" prefHeight="74.0" prefWidth="150.0" text="Dctr7" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="m7" alignment="CENTER" prefHeight="74.0" prefWidth="112.0" text="M7" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="c7" alignment="CENTER" prefHeight="73.0" prefWidth="94.0" text="C7" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="75.0" prefWidth="320.0">
+               <children>
+                  <Label fx:id="d8" alignment="CENTER" prefHeight="74.0" prefWidth="150.0" text="Dctr8" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="m8" alignment="CENTER" prefHeight="74.0" prefWidth="112.0" text="M8" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="c8" alignment="CENTER" prefHeight="73.0" prefWidth="94.0" text="C8" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="75.0" prefWidth="320.0">
+               <children>
+                  <Label fx:id="d9" alignment="CENTER" prefHeight="74.0" prefWidth="150.0" text="Dctr9" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="m9" alignment="CENTER" prefHeight="74.0" prefWidth="112.0" text="M9" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="c9" alignment="CENTER" prefHeight="73.0" prefWidth="94.0" text="C9" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="75.0" prefWidth="320.0">
+               <children>
+                  <Label fx:id="d10" alignment="CENTER" prefHeight="74.0" prefWidth="150.0" text="Dctr10" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="m10" alignment="CENTER" prefHeight="74.0" prefWidth="112.0" text="M10" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="c10" alignment="CENTER" prefHeight="73.0" prefWidth="94.0" text="C10" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="75.0" prefWidth="320.0">
+               <children>
+                  <Label fx:id="d11" alignment="CENTER" prefHeight="74.0" prefWidth="150.0" text="Dctr11" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="m11" alignment="CENTER" prefHeight="74.0" prefWidth="112.0" text="M11" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="c11" alignment="CENTER" prefHeight="73.0" prefWidth="94.0" text="C11" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="75.0" prefWidth="320.0">
+               <children>
+                  <Label fx:id="d12" alignment="CENTER" prefHeight="74.0" prefWidth="150.0" text="Dctr12" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="m12" alignment="CENTER" prefHeight="74.0" prefWidth="112.0" text="M12" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="c12" alignment="CENTER" prefHeight="73.0" prefWidth="94.0" text="C12" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni MT" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button fx:id="close" layoutX="1180.0" layoutY="4.0" mnemonicParsing="false" onAction="#Close" prefHeight="24.0" prefWidth="50.0">
+         <graphic>
+            <ImageView fitHeight="15.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/delete_16x16.gif" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

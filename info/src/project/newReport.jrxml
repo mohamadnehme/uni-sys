@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<parameter name="fname" class="java.lang.String"/>
+	<parameter name="lname" class="java.lang.String"/>
+	<parameter name="dob" class="java.lang.String"/>
+	<parameter name="email" class="java.lang.String"/>
+	<parameter name="image" class="java.lang.String"/>
+	<parameter name="id" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="467" splitType="Stretch">
+			<image>
+				<reportElement x="652" y="0" width="150" height="150"/>
+				<imageExpression class="java.lang.String"><![CDATA["src\\project\\images\\logo_6.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="652" y="150" width="150" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[الجامعة اللبنانية]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="374" width="87" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Date Of Birth :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="284" width="187" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Faculity Of Science]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="331" width="187" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Computer Science - Diploma]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="189" width="87" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[First Name:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="237" width="87" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Last Name:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="421" width="87" height="34"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[E - Mail :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="87" y="189" width="100" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font size="13" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{fname}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="87" y="237" width="100" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font size="13" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{lname}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="87" y="374" width="100" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font size="13" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{dob}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="87" y="421" width="207" height="34"/>
+				<textElement verticalAlignment="Middle">
+					<font size="13" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{email}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="0" y="0" width="225" height="150"/>
+				<imageExpression class="java.lang.String"><![CDATA[$P{image}]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="353" y="86" width="115" height="44"/>
+				<textElement>
+					<font size="24" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[2020-2021]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="331" y="26" width="163" height="40"/>
+				<textElement>
+					<font size="26" isBold="true"/>
+				</textElement>
+				<text><![CDATA[بطاقة طالب جامعي]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="682" y="237" width="120" height="20"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[كلية العلوم - الفرع الأول]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="730" y="294" width="72" height="20"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[رقم الملف:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="652" y="294" width="78" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{id}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="652" y="354" width="150" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ثالثة معلوماتية - فرنسي]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="702" y="411" width="100" height="20"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[الجنسية : اللبنانبة]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="331" y="447" width="163" height="20" forecolor="#CC0000"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[http://ulfds1.ul.edu.lb]]></text>
+			</staticText>
+		</band>
+	</title>
+</jasperReport>
